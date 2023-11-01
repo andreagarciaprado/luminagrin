@@ -12,6 +12,7 @@ header {
     top: 0px;
     display: flex;
     flex-flow: row wrap;
+    z-index:1
 }
 nav.navbar ul.nav li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -39,6 +40,13 @@ ul li {
 /*estilos de index*/
 .fondo-inicio {
     background-image: url(../multimedia/recepcion-clinica-1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+.título {
+    font-size: 20px;
+}
 }
 .card {
     background-color:transparent
@@ -49,6 +57,10 @@ ul li {
 /*estilos de nosotros*/
 .fondo{
     background-image: url(../multimedia/clinica-dental-.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
 }
 
 /*estilos de especialidades*/
