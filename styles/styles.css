@@ -7,23 +7,25 @@ header {
     background-color: rgb(149, 217, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
-    color: rgb(2, 2, 70);
+    color: rgb(1, 25, 49);
     position: sticky;
     top: 0px;
     display: flex;
     flex-flow: row wrap;
     z-index:1
 }
-nav.navbar ul.nav li {
+.nav-item {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:  rgb(2, 2, 70);
+    color:  rgb(1, 25, 49);
+
     
 }
 
 
 .fuentes {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(2, 2, 70);
+    color: rgb(1, 25, 49);
+
 }
 a {
     text-decoration: none;
@@ -43,15 +45,21 @@ ul li {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-
+}
+.col {
+display: flex;
+justify-content: center;
+}
+    
 .título {
     font-size: 20px;
+    color: rgb(1, 25, 49);
 }
-}
-.card {
-    background-color:transparent
 
-    
+.card {
+    background-color: aliceblue;
+    opacity: calc(.8);
+   
 
 }
 /*estilos de nosotros*/
@@ -63,6 +71,11 @@ ul li {
 
 }
 
+.row-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
 /*estilos de especialidades*/
 .esp {
     display: flex;
@@ -70,6 +83,11 @@ ul li {
     align-items: center;
     justify-content: center;
     
+}
+.card-img-top {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+
 }
 .card {
     width: 500px;
@@ -82,11 +100,22 @@ ul li {
 }
 /*estilos de reserva*/
 .body-reserva {
-display: grid;
-height: 100vh;
-grid-template-rows: 149px auto 88px;  /*este no me funcionó*/
+display:flex;
+flex-direction: column;
+min-height: 100vh;
 }
+
+
 /*estilos de contacto*/
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 .mapa {
     width: 500px;
     height: 300px;
@@ -95,11 +124,18 @@ grid-template-rows: 149px auto 88px;  /*este no me funcionó*/
 footer {
     background-color: rgb(149, 217, 246);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-.rrss {
-margin: 10px;
-}
+    margin-top: auto;
+    .rrss {
+    margin: 10px;
     display: flex;
     flex-direction:row;
     justify-content:center;
     }
-    
+    .otros-footer {
+        margin-top: 10px;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+
+    }
+}
