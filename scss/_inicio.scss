@@ -1,0 +1,22 @@
+.fondo-inicio {
+    background-image: url(../multimedia/recepcion-clinica-1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.col {
+display: flex;
+justify-content: center;
+}
+    
+.título {
+    font-size: 20px;
+    color: rgb(1, 25, 49);
+}
+
+.card {
+    background-color: aliceblue;
+    opacity: calc(.8);
+   
+
+}

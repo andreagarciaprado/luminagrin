@@ -1,0 +1,21 @@
+.esp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-img-top {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+
+}
+.card {
+    width: 500px;
+    border: 1px solid;
+    border-color: rgba(9, 9, 146, 0.674);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+
+}

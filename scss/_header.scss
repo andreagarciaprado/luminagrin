@@ -1,0 +1,32 @@
+header {
+    background-color: $color-principal;
+    font-family: $fuente-principal;
+    font-weight: 700;
+    color: rgb(1, 25, 49);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index:1
+}
+.nav-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  rgb(1, 25, 49);
+}
+.fuentes {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 25, 49);
+
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}

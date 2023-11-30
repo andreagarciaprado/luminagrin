@@ -1,141 +1,139 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 header {
-    background-color: rgb(149, 217, 246);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
-    color: rgb(1, 25, 49);
-    position: sticky;
-    top: 0px;
-    display: flex;
-    flex-flow: row wrap;
-    z-index:1
+  background-color: rgb(149, 217, 246);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: rgb(1, 25, 49);
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  z-index: 1;
 }
+
 .nav-item {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:  rgb(1, 25, 49);
-
-    
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(1, 25, 49);
 }
-
 
 .fuentes {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(1, 25, 49);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(1, 25, 49);
+}
 
-}
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 ul {
-    list-style: none;
+  list-style: none;
 }
+
 ul li {
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-bottom: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
-/*estilos de index*/
+
+footer {
+  background-color: rgb(149, 217, 246);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: auto;
+}
+footer .rrss {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .otros-footer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .fondo-inicio {
-    background-image: url(../multimedia/recepcion-clinica-1.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(../multimedia/recepcion-clinica-1.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 .col {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-    
+
 .título {
-    font-size: 20px;
-    color: rgb(1, 25, 49);
+  font-size: 20px;
+  color: rgb(1, 25, 49);
 }
 
 .card {
-    background-color: aliceblue;
-    opacity: calc(.8);
-   
-
+  background-color: aliceblue;
+  opacity: 0.8;
 }
-/*estilos de nosotros*/
-.fondo{
-    background-image: url(../multimedia/clinica-dental-.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 
+.fondo {
+  background-image: url(../multimedia/clinica-dental-.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .row-nosotros {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-/*estilos de especialidades*/
 .esp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 .card-img-top {
-    aspect-ratio: 2/1;
-    object-fit: cover;
-
+  aspect-ratio: 2/1;
+  object-fit: cover;
 }
+
 .card {
-    width: 500px;
-    border: 1px solid;
-    border-color: rgba(9, 9, 146, 0.674);
-    padding: 20px;
-    margin: 40px;
-    border-radius: 10px;
-
+  width: 500px;
+  border: 1px solid;
+  border-color: rgba(9, 9, 146, 0.674);
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
 }
-/*estilos de reserva*/
+
 .body-reserva {
-display:flex;
-flex-direction: column;
-min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-
-/*estilos de contacto*/
 .contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
 .mapa {
-    width: 500px;
-    height: 300px;
-    margin: 30px;
+  width: 500px;
+  height: 300px;
+  margin: 30px;
 }
-footer {
-    background-color: rgb(149, 217, 246);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: auto;
-    .rrss {
-    margin: 10px;
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-    }
-    .otros-footer {
-        margin-top: 10px;
-        display: flex;
-        flex-direction:row;
-        justify-content:center;
 
-    }
-}
+/*# sourceMappingURL=styles.css.map */
